@@ -119,12 +119,12 @@ ECHO
 // --------------------------
 // FUNCTION KEYS
 // --------------------------
-bind "scancode61" "rnd"                        // RANDOM TEXT {BUTTON - F5}
-bind "scancode66" "vl"                         // TOGGLE GAME VOLUME {BUTTON - F3}
-bind "scancode64" "toggle voice_loopback"      // MIC TEST {BUTTON - F9}
-bind "scancode67" "gm"                         // GAME MODE LAN {BUTTON - F4}
-bind "scancode68" "mod"                        // PERSONAL GAME MODE {BUTTON - F5}
-bind "scancode69" "ex88"                       // PERSONAL CONFIG LOADER {BUTTON - F6}
+bind "scancode61" "rnd"                        // RANDOM TEXT {BUTTON - F4}
+bind "scancode66" "vl"                         // TOGGLE GAME VOLUME {BUTTON - F9}
+bind "scancode64" "toggle voice_loopback"      // MIC TEST {BUTTON - F7}
+bind "scancode67" "gm"                         // GAME MODE LAN {BUTTON - F10}
+bind "scancode68" "mod"                        // PERSONAL GAME MODE {BUTTON - F11}
+bind "scancode69" "ex88"                       // PERSONAL CONFIG LOADER {BUTTON - F12}
 bind "scancode41" "cancelselect"               // ESCAPE BUTTON {BUTTON - ESCAPE}
 bind "scancode58" "autobuy"                     // AUTOMATIC PURCHASE {BUTTON - F1}
 bind "scancode59" "rebuy"                       // REBUY {BUTTON - F2}
@@ -140,4 +140,5 @@ ECHO "BASIC BINDS SETTINGS ARE LOADED CORRECTLY, ENJOY MRWHITEE_R"
 ECHO "FILE key_binds.vcfg HAS LOADED SUCCESSFULLY!"
 ECHO
 ECHO
+
 
