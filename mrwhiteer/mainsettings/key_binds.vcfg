@@ -68,14 +68,14 @@ ECHO
 bind "scancode8" "+use"                  // INTERACT / DISARM / PRESS BUTTONS {BUTTON - E}
 bind "scancode21" "+reload"              // RELOAD WEAPON {BUTTON - R}
 bind "scancode23" "+spray_menu"          // GRAFFITI MENU {BUTTON - T}
-bind "scancode28" "messagemode"          // MESSAGE ALL {BUTTON - T}
+bind "scancode28" "messagemode"          // MESSAGE ALL {BUTTON - Y}
 bind "scancode24" "messagemode2"         // MESSAGE TEAM {BUTTON - U}
 bind "scancode10" "drop"                 // DROP WEAPON {BUTTON - G}
-bind "scancode29" "+radialradio"        // RADIO WHEEL MENU {BUTTON - G}
-bind "scancode54" "radio2"               // BASIC RADIO {BUTTON - F}
-bind "scancode6" "radio"                 // BASIC RADIO {BUTTON - 3}
+bind "scancode29" "+radialradio"         // RADIO WHEEL MENU {BUTTON - Z}
+bind "scancode54" "radio2"               // BASIC RADIO {BUTTON - ,}
+bind "scancode6" "radio"                 // BASIC RADIO {BUTTON - C}
 bind "scancode5" "buymenu"               // BUY MENU {BUTTON - B}
-bind "scancode16" "teammenu"             // TEAM MENU {BUTTON - W}
+bind "scancode16" "teammenu"             // TEAM MENU {BUTTON - M}
 bind "scancode58" "autobuy"              // AUTOMATIC PURCHASE {BUTTON - F1}
 bind "scancode59" "rebuy"                // REBUY LAST PURCHASE {BUTTON - F2}
 
@@ -140,5 +140,6 @@ ECHO "BASIC BINDS SETTINGS ARE LOADED CORRECTLY, ENJOY MRWHITEE_R"
 ECHO "FILE key_binds.vcfg HAS LOADED SUCCESSFULLY!"
 ECHO
 ECHO
+
 
 
