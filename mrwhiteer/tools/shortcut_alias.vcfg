@@ -1,0 +1,155 @@
+// =============================================
+// COMMANDS SHORTCUTS - MRWHITEE_R
+// ALIASES | GIVE / BUY WEAPONS | MAP SHORTCUTS | UTILITIES
+// =============================================
+
+ECHO
+ECHO
+ECHO "LOADING COMMANDS SHORTCUTS SETTINGS"
+ECHO
+ECHO
+
+// --------------------------
+// GENERAL COMMAND ALIASES
+// --------------------------
+alias "dc" "disconnect"                                      // EXIT SERVER
+alias "s" "status"                                           // DISPLAY SERVER STATUS
+alias "c" "clear"                                            // CLEAR CONSOLE
+alias "mute" "toggle cl_mute_enemy_team 1 0"                 // MUTE / UNMUTE ENEMY TEAM CHAT
+alias "shield" "ui_vanitysetting_loadoutslot_t heavy5"      // EQUIP SHIELD IN MENU
+
+ECHO "GENERAL COMMAND ALIASES LOADED SUCCESSFULLY!"
+ECHO
+ECHO ---------------------------------------------
+ECHO
+
+// --------------------------
+// GIVE / BUY WEAPONS
+// --------------------------
+// RIFLES
+alias "g_ak47" "give weapon_ak47"                            // GIVE AK-47
+alias "b_ak47" "buy weapon_ak47"                             // BUY AK-47
+alias "g_m4" "give weapon_m4a1"                               // GIVE M4A1
+alias "b_m4" "buy weapon_m4a1"                                // BUY M4A1
+alias "g_m4s" "give weapon_m4a1_silencer"                     // GIVE M4A1-S
+alias "b_m4s" "buy weapon_m4a1_silencer"                      // BUY M4A1-S
+alias "g_aug" "give weapon_aug"                                // GIVE AUG
+alias "b_aug" "buy weapon_aug"                                 // BUY AUG
+alias "g_sg" "give weapon_sg556"                               // GIVE SG-556
+alias "b_sg" "buy weapon_sg556"                                // BUY SG-556
+alias "g_galil" "give weapon_galilar"                          // GIVE GALIL
+alias "b_galil" "buy weapon_galilar"                           // BUY GALIL
+
+// SNIPERS
+alias "g_awp" "give weapon_awp"                                // GIVE AWP
+alias "b_awp" "buy weapon_awp"                                 // BUY AWP
+alias "g_scout" "give weapon_ssg08"                             // GIVE SCOUT
+alias "b_scout" "buy weapon_ssg08"                               // BUY SCOUT
+alias "g_g3" "give weapon_g3sg1"                                // GIVE G3SG1
+alias "b_g3" "buy weapon_g3sg1"                                 // BUY G3SG1
+alias "g_scar20" "give weapon_scar20"                            // GIVE SCAR-20
+alias "b_scar20" "buy weapon_scar20"                              // BUY SCAR-20
+
+// PISTOLS
+alias "g_glock" "give weapon_glock"                              // GIVE GLOCK-18
+alias "b_glock" "buy weapon_glock"                                // BUY GLOCK-18
+alias "g_p250" "give weapon_p250"                                // GIVE P250
+alias "b_p250" "buy weapon_p250"                                  // BUY P250
+alias "g_deagle" "give weapon_deagle"                              // GIVE DEAGLE
+alias "b_deagle" "buy weapon_deagle"                                // BUY DEAGLE
+alias "g_fiveseven" "give weapon_fiveseven"                         // GIVE FIVE-SEVEN
+alias "b_fiveseven" "buy weapon_fiveseven"                           // BUY FIVE-SEVEN
+alias "g_rev" "give weapon_revolver"                                  // GIVE REVOLVER
+alias "b_rev" "buy weapon_revolver"                                    // BUY REVOLVER
+alias "g_cz" "give weapon_cz75a"                                       // GIVE CZ-75
+alias "b_cz" "buy weapon_cz75a"                                         // BUY CZ-75
+alias "g_p2000" "give weapon_hkp2000"                                   // GIVE P2000
+alias "b_p2000" "buy weapon_hkp2000"                                     // BUY P2000
+alias "g_usp" "give weapon_usp_silencer"                                 // GIVE USP-S
+alias "b_usp" "buy weapon_usp_silencer"                                   // BUY USP-S
+alias "g_tec" "give weapon_tec9"                                          // GIVE TEC-9
+alias "b_tec" "buy weapon_tec9"                                            // BUY TEC-9
+
+// SMGS
+alias "g_mp9" "give weapon_mp9"                                            // GIVE MP9
+alias "b_mp9" "buy weapon_mp9"                                              // BUY MP9
+alias "g_mp7" "give weapon_mp7"                                             // GIVE MP7
+alias "b_mp7" "buy weapon_mp7"                                              // BUY MP7
+alias "g_mac10" "give weapon_mac10"                                         // GIVE MAC-10
+alias "b_mac10" "buy weapon_mac10"                                          // BUY MAC-10
+alias "g_m249" "give weapon_m249"                                           // GIVE M249
+alias "b_m249" "buy weapon_m249"                                            // BUY M249
+alias "g_bizon" "give weapon_bizon"                                         // GIVE BIZON
+alias "b_bizon" "buy weapon_bizon"                                          // BUY BIZON
+alias "g_ump" "give weapon_ump45"                                           // GIVE UMP-45
+alias "b_ump" "buy weapon_ump45"                                            // BUY UMP-45
+
+// SHOTGUNS
+alias "g_xm1014" "give weapon_xm1014"                                       // GIVE XM1014
+alias "b_xm1014" "buy weapon_xm1014"                                         // BUY XM1014
+alias "g_mag7" "give weapon_mag7"                                             // GIVE MAG-7
+alias "b_mag7" "buy weapon_mag7"                                              // BUY MAG-7
+alias "g_sawed" "give weapon_sawedoff"                                        // GIVE SAWED-OFF
+alias "b_sawed" "buy weapon_sawedoff"                                          // BUY SAWED-OFF
+alias "g_swag7" "give weapon_mag7"                                            // GIVE MAG-7 ALIAS
+alias "b_swag7" "buy weapon_mag7"                                              // BUY MAG-7 ALIAS
+
+// GRENADES
+alias "g_flash" "give weapon_flashbang"                                      // GIVE FLASHBANG
+alias "b_flash" "buy weapon_flashbang"                                        // BUY FLASHBANG
+alias "g_he" "give weapon_hegrenade"                                          // GIVE HE GRENADE
+alias "b_he" "buy weapon_hegrenade"                                           // BUY HE GRENADE
+alias "g_smoke" "give weapon_smokegrenade"                                    // GIVE SMOKE
+alias "b_smoke" "buy weapon_smokegrenade"                                      // BUY SMOKE
+alias "g_molo" "give weapon_molotov"                                          // GIVE MOLOTOV
+alias "b_molo" "buy weapon_molotov"                                            // BUY MOLOTOV
+alias "g_decoy" "give weapon_decoy"                                           // GIVE DECOY
+alias "b_decoy" "buy weapon_decoy"                                             // BUY DECOY
+alias "g_tag" "give weapon_tagrenade"                                         // GIVE TAG GRENADE
+alias "b_tag" "buy weapon_tagrenade"                                           // BUY TAG GRENADE
+alias "g_snowball" "give weapon_snowball"                                     // GIVE SNOWBALL
+alias "b_snowball" "buy weapon_snowball"                                       // BUY SNOWBALL
+
+ECHO "GIVE / BUY WEAPONS ALIASES LOADED SUCCESSFULLY!"
+ECHO
+ECHO ---------------------------------------------
+ECHO
+
+// --------------------------
+// MAP SHORTCUTS
+// --------------------------
+alias "anubis" "map de_anubis"                                             // LOAD MAP ANUBIS
+alias "ancient" "map de_ancient"                                           // LOAD MAP ANCIENT
+alias "mirage" "map de_mirage"                                             // LOAD MAP MIRAGE
+alias "nuke" "map de_nuke"                                                 // LOAD MAP NUKE
+alias "aztec" "map de_aztec"                                               // LOAD MAP AZTEC
+alias "cache" "map de_cache"                                               // LOAD MAP CACHE
+alias "cobble" "map de_cbble"                                              // LOAD MAP COBBLE
+alias "dust" "map de_dust"                                                 // LOAD MAP DUST
+alias "dust2" "map de_dust2"                                               // LOAD MAP DUST2
+alias "inferno" "map de_inferno"                                           // LOAD MAP INFERNO
+alias "overpass" "map de_overpass"                                         // LOAD MAP OVERPASS
+alias "train" "map de_train"                                               // LOAD MAP TRAIN
+alias "vertigo" "map de_vertigo"                                           // LOAD MAP VERTIGO
+
+ECHO "MAP SHORTCUTS LOADED SUCCESSFULLY!"
+ECHO
+ECHO ---------------------------------------------
+ECHO
+
+// --------------------------
+// LOCAL SERVER UTILITIES
+// --------------------------
+alias "maxhealth" "ent_fire !self sethealth 999999999"                       // MAX HEALTH FOR LOCAL SERVER
+
+ECHO "LOCAL SERVER UTILITIES LOADED SUCCESSFULLY!"
+ECHO
+ECHO ---------------------------------------------
+ECHO
+
+ECHO
+ECHO
+ECHO "COMMANDS SHORTCUTS SETTINGS ARE LOADED CORRECTLY, ENJOY MRWHITEE_R"
+ECHO "FILE commands_shortcuts.vcfg HAS LOADED SUCCESSFULLY!"
+ECHO
+ECHO
