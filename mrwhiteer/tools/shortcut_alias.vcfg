@@ -17,6 +17,7 @@ alias "s" "status"                                           // DISPLAY SERVER S
 alias "c" "clear"                                            // CLEAR CONSOLE
 alias "mute" "toggle cl_mute_enemy_team 1 0"                 // MUTE / UNMUTE ENEMY TEAM CHAT
 alias "shield" "ui_vanitysetting_loadoutslot_t heavy5"      // EQUIP SHIELD IN MENU
+alias "exec help.vcfg" "help"                                // SHOW ALL CUSTOM COMMANDS
 
 ECHO "GENERAL COMMAND ALIASES LOADED SUCCESSFULLY!"
 ECHO
@@ -153,3 +154,4 @@ ECHO "COMMANDS SHORTCUTS SETTINGS ARE LOADED CORRECTLY, ENJOY MRWHITEE_R"
 ECHO "FILE commands_shortcuts.vcfg HAS LOADED SUCCESSFULLY!"
 ECHO
 ECHO
+
