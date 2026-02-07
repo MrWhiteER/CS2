@@ -127,7 +127,8 @@ ECHO
 // MOUSE SETTINGS
 // --------------------------
 zoom_sensitivity_ratio "0.818933027098955175" // AWP / Scout zoom sensitivity {SETTING - 0.8189}
-sensitivity "1.8"                              // general sensitivity {SETTING - 1.8}
+sensitivity "1"                                // general sensitivity {SETTING - 1.8}
+sensitivity_y_scale  "1"                       // mouse Y 
 m_yaw "0.0145"                                 // mouse yaw {SETTING - 0.0145}
 m_pitch "0.015"                                // mouse pitch {SETTING - 0.015}
 
@@ -142,3 +143,4 @@ ECHO "GAME SETTINGS ARE LOADED CORRECTLY, ENJOY MRWHITEE_R"
 ECHO "FILE gamesettings.vcfg HAS LOADED SUCCESSFULLY!"
 ECHO
 ECHO
+
