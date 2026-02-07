@@ -110,6 +110,7 @@ bind "scancode40" "miceopen"                        // PUSH-TO-TALK TOGGLE {BUTT
 bind "scancode12" "slot12"                           // X-RAY FOR OVERWATCH {BUTTON - I}
 bind "scancode9" "+lookatweapon"                    // INSPECT ITEM {BUTTON - F}
 bind "scancode25" "switchhands"                      // WEAPON PREVIEW {BUTTON - V}
+bind "scancode46" "help"                             // SHOWS ALL CUSTOM COMMANDS
 
 ECHO "CUSTOM BINDS LOADED SUCCESSFULLY!"
 ECHO
@@ -140,6 +141,7 @@ ECHO "BASIC BINDS SETTINGS ARE LOADED CORRECTLY, ENJOY MRWHITEE_R"
 ECHO "FILE key_binds.vcfg HAS LOADED SUCCESSFULLY!"
 ECHO
 ECHO
+
 
 
 
