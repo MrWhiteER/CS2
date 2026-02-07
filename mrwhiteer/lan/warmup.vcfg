@@ -70,6 +70,7 @@ ECHO
 bind "e" "+invsmoke"                     // USE + KILL GRENADES + TIMESCALE
 bind "mouse4" "bot_place"                // PLACE BOT
 bind "mouse5" "+voicerecord; sv_rethrow_last_grenade;" // VOICE + GRENADE RETROW
+bubd "mouse3" "noclip"                   // FLY MODE
 
 ECHO "KEYBINDS LOADED SUCCESSFULLY!"
 ECHO
@@ -103,3 +104,4 @@ ECHO "WARMUP / TRAINING SCRIPT IS LOADED CORRECTLY, ENJOY MRWHITEE_R"
 ECHO "FILE warmup.vcfg HAS LOADED SUCCESSFULLY!"
 ECHO
 ECHO
+
