@@ -10,18 +10,8 @@ echo
 echo
 echo "Loading Tools Settings"
 echo "Loading ALIAS Settings"
-exec "mrwhiteer/tools/exec_alias.vcfg"
+exec "mrwhiteer/tools/alias.vcfg"
 echo "ALIAS Settings Loaded Successfully"
-echo
-echo
-echo "---------------------------------------------"
-
-echo
-echo
-echo "Loading Tools Settings"
-echo "Loading JUNK_ALIAS Settings"
-exec "mrwhiteer/tools/junk_alias.vcfg"
-echo "JUNK_ALIAS Settings Loaded Successfully"
 echo
 echo
 echo "---------------------------------------------"
@@ -32,16 +22,6 @@ echo "Loading Tools Settings"
 echo "Loading SCRIPTS Settings"
 exec "mrwhiteer/tools/scripts.vcfg"
 echo "SCRIPTS Settings Loaded Successfully"
-echo
-echo
-echo "---------------------------------------------"
-
-echo
-echo
-echo "Loading Tools Settings"
-echo "Loading SHORTCUT_ALIAS Settings"
-exec "mrwhiteer/tools/shortcut_alias.vcfg"
-echo "SHORTCUT_ALIAS Settings Loaded Successfully"
 echo
 echo
 echo "---------------------------------------------"

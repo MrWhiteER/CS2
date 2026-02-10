@@ -1,5 +1,6 @@
 // =============================================
-// WARMUP / TRAINING SCRIPT - MRWHITEE_R
+// GAME SETTINGS - warmup.vcfg
+// WARMUP / TRAINING | SERVER | CHEATS | MOVEMENT | KEYBINDS | ALIASES
 // =============================================
 
 ECHO
@@ -11,98 +12,88 @@ ECHO
 // --------------------------
 // SERVER / CHEATS SETTINGS
 // --------------------------
-sv_cheats 1
-ammo_grenade_limit_total 5
-bot_freeze 1
-bot_knives_only 1
-bot_quota 100
-bot_stop 1
-bot_dont_shoot 1
-cl_draw_only_deathnotices 0
-mp_autoteambalance 0
-mp_buy_anywhere 1
-mp_buytime 9999
-mp_freezetime 0
-mp_limitteams 0
-mp_maxmoney 60000
-mp_respawn_on_death_ct 1
-mp_respawn_on_death_t 1
-mp_restartgame 1
-mp_roundtime 88
-mp_roundtime_defuse 88
-mp_roundtime_hostage 88
-mp_startmoney 60000
-mp_teammates_are_enemies 1
-mp_warmup_end
+sv_cheats 1                                     // Enable cheats
+ammo_grenade_limit_total 5                      // Maximum total grenades a player can carry
+bot_freeze 1                                    // Freeze all bots
+bot_knives_only 1                               // Bots use knives only
+bot_quota 100                                   // Total number of bots in game
+bot_stop 1                                      // Stop bot movement
+bot_dont_shoot 1                                // Prevent bots from shooting
+cl_draw_only_deathnotices 0                     // Draw only death notices
+mp_autoteambalance 0                            // Disable auto team balance
+mp_buy_anywhere 1                               // Allow buying anywhere
+mp_buytime 9999                                 // Buy time in seconds
+mp_freezetime 0                                 // No freeze at round start
+mp_limitteams 0                                 // No team size limits
+mp_maxmoney 60000                               // Maximum money
+mp_respawn_on_death_ct 1                        // Respawn CTs instantly
+mp_respawn_on_death_t 1                         // Respawn Ts instantly
+mp_restartgame 1                                // Restart game on load
+mp_roundtime 88                                 // Round duration in minutes
+mp_roundtime_defuse 88                           // Round time on defuse maps
+mp_roundtime_hostage 88                          // Round time on hostage maps
+mp_startmoney 60000                              // Starting money
+mp_teammates_are_enemies 1                       // Teammates are treated as enemies
+mp_warmup_end                                   // End warmup
+mp_drop_knife_enable 1				// Knife Drop Ability
 
-ECHO "SERVER / CHEATS SETTINGS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
+ECHO "SERVER / CHEATS SETTINGS LOADED SUCCESSFULLY!"
 ECHO
 
 // --------------------------
 // PHYSICS / MOVEMENT SETTINGS
 // --------------------------
-sv_accelerate_use_weapon_speed 0
-sv_airaccelerate 2000
-sv_alltalk 1
-sv_autobunnyhopping 1
-sv_enablebunnyhopping 1
-sv_falldamage_scale 0
-sv_grenade_trajectory_prac_pipreview 1
-sv_infinite_ammo 1
-sv_maxvelocity 3500
-sv_showimpacts 1
-sv_showimpacts_time 15
-sv_staminajumpcost 0
-sv_staminalandcost 0
-sv_staminamax 0
-sv_staminarecoveryrate 0
+sv_accelerate_use_weapon_speed 0                 // Disable weapon speed acceleration
+sv_airaccelerate 2000                            // Air acceleration factor
+sv_alltalk 1                                     // Enable all-talk voice
+sv_autobunnyhopping 1                            // Enable automatic bunnyhopping
+sv_enablebunnyhopping 1                          // Enable bunnyhopping
+sv_falldamage_scale 0                            // Disable fall damage
+sv_grenade_trajectory_prac_pipreview 1           // Enable grenade trajectory preview
+sv_infinite_ammo 1                               // Infinite ammo for players
+sv_maxvelocity 3500                              // Maximum player velocity
+sv_showimpacts 1                                 // Show bullet impacts
+sv_showimpacts_time 15                           // Duration to show impacts
+sv_staminajumpcost 0                             // No stamina cost for jumping
+sv_staminalandcost 0                             // No stamina cost for landing
+sv_staminamax 0                                  // Disable stamina max
+sv_staminarecoveryrate 0                         // Disable stamina recovery
 
+ECHO
 ECHO "PHYSICS / MOVEMENT SETTINGS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
+
+// --------------------------
+// KEYBINDS / INPUT SETTINGS
+// --------------------------
+bind "e" "+invsmoke; +killgreandes; !health"             		// Bind E to custom smoke use
+bind "mouse4" "bot_place"                        			// Bind mouse4 to bot placement
+bind "mouse5" "+voicerecord; sv_rethrow_last_grenade"			// Bind mouse5 to voice + grenade rethrow
+bind "mouse3" "noclip"                          			// Bind mouse3 to noclip
+
 ECHO
-
-// --------------------------
-// KEYBINDS
-// --------------------------
-bind "e" "+invsmoke"                     // USE + KILL GRENADES + TIMESCALE
-bind "mouse4" "bot_place"                // PLACE BOT
-bind "mouse5" "+voicerecord; sv_rethrow_last_grenade;" // VOICE + GRENADE RETROW
-bind "mouse3" "noclip"                   // FLY MODE
-
 ECHO "KEYBINDS LOADED SUCCESSFULLY!"
-ECHO
-ECHO ---------------------------------------------
 ECHO
 
 // --------------------------
 // ALIASES / CUSTOM ACTIONS
 // --------------------------
-alias "+invsmoke" "+use; +killgreandes; host_timescale 20; exec mrwhiteer/Twists/Max_Health.cfg"
-alias "-invsmoke" "host_timescale 1"
+alias "+invsmoke" "+use; +killgreandes;  host_timescale 20	        // Start custom smoke sequence
+alias "-invsmoke" "host_timescale 1"                                    // Reset timescale
 
-alias "+killgreandes" "ent_fire smokegrenade_projectile kill; ent_fire molotov_projectile kill; ent_fire flashbang_projectile kill; ent_fire hegrenade_projectile kill; ent_fire decoy_projectile kill; stopsound"
+alias "+killgreandes" "ent_fire smokegrenade_projectile kill; ent_fire molotov_projectile kill; ent_fire inferno kill; ent_fire flashbang_projectile kill; ent_fire hegrenade_projectile kill; ent_fire decoy_projectile kill; stopsound"  // Kill all grenades
+alias "!health"   "ent_fire !self sethealth 999999"         	        // Max health (practice only)
 
-ECHO "ALIASES / CUSTOM ACTIONS LOADED SUCCESSFULLY!"
+
 ECHO
-ECHO ---------------------------------------------
+ECHO "ALIASES / CUSTOM ACTIONS LOADED SUCCESSFULLY!"
 ECHO
 
 // --------------------------
 // FINALIZATION
 // --------------------------
-clear
-
-echo "______! Warmap Configs Loaded! By MrWhiteE_R !______"
-say "______! Warmap Configs Loaded! By MrWhiteE_R !______"
-
 ECHO
-ECHO
-ECHO "WARMUP / TRAINING SCRIPT IS LOADED CORRECTLY, ENJOY MRWHITEE_R"
+say "______! warmup.vcfg CONFIGS LOADED! ______"            // Broadcast message to all players
 ECHO "FILE warmup.vcfg HAS LOADED SUCCESSFULLY!"
 ECHO
-ECHO
-
-

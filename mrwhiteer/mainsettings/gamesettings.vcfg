@@ -1,5 +1,5 @@
 // =============================================
-// GAME SETTINGS - MRWHITEE_R
+// GAME SETTINGS - gamesettings.vcfg
 // GRAPHICS | HUD | RADAR | VIEWMODEL | CROSSHAIR | SOUND | MOUSE
 // =============================================
 
@@ -12,135 +12,127 @@ ECHO
 // --------------------------
 // GRAPHICS SETTINGS
 // --------------------------
-battery_saver "false"                       // disables laptop power savings {SETTING - OFF}
-cl_ping_fade_deadzone "150"                 // ping disappears distance {SETTING - 150 units}
-cl_ping_fade_distance "350"                 // ping fade distance {SETTING - 350 units}
-cl_teamid_overhead_colors_show "1"          // colored nicknames {SETTING - PLAYER COLOR}
-cl_teamid_overhead_mode "2"                 // nickname through walls {SETTING - TAG + NICKNAME + EQUIPMENT}
-engine_no_focus_sleep "0"                   // disables game sleep when minimized {SETTING - OFF}
-fps_max "0"                               // max FPS in game {SETTING - UNLIMITED FPS}
-fps_max_ui "0"                            // max FPS in menu {SETTING - UNLIMITED FPS}
-r_fullscreen_gamma "2.5"                    // game brightness {SETTING - 2.5}
-r_player_visibility_mode "1"                // player contrast {SETTING - ON}
-r_show_build_info "0"                       // build info display {SETTING - OFF}
+battery_saver "false"                       // Enable/disable battery saver mode
+cl_ping_fade_deadzone "150"                 // Distance before ping fades
+cl_ping_fade_distance "350"                 // Max distance for ping fade
+cl_teamid_overhead_colors_show "1"          // Show team colors overhead
+cl_teamid_overhead_mode "2"                 // Team ID display mode
+engine_no_focus_sleep "0"                   // Engine sleep when out of focus
+fps_max "0"                                 // Max FPS limit
+fps_max_ui "0"                              // Max FPS for UI
+r_fullscreen_gamma "2.5"                    // Fullscreen gamma
+r_player_visibility_mode "1"                // Player visibility mode
+r_show_build_info "0"                        // Display build info
 
-ECHO "GRAPHICS SETTINGS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
+ECHO "GRAPHICS SETTINGS LOADED SUCCESSFULLY!"
 ECHO
 
 // --------------------------
 // HUD SETTINGS
 // --------------------------
-cl_allow_animated_avatars "0"               // animated avatars {SETTING - OFF}
-cl_autohelp "1"                             // shooting mode notifications {SETTING - ON}
-cl_hide_avatar_images "0"                   // avatars visible {SETTING - VISIBLE}
-cl_hud_color "4"                            // HUD color {SETTING - DARK BLUE}
-cl_sanitize_muted_players "0"               // muted players nicknames {SETTING - VISIBLE}
-cl_sanitize_player_names "0"                // display player nicknames {SETTING - ENABLED}
-cl_scoreboard_mouse_enable_binding "+attack2" // enable scoreboard cursor {BUTTON - Mouse2}
-cl_show_clan_in_death_notice "0"            // show Steam group names {SETTING - OFF}
-cl_showfps "0"                              // show FPS in corner {SETTING - OFF}
-cl_showloadout "1"                           // show weapon icons {SETTING - ON}
-cl_teamcounter_playercount_instead_of_avatars "1" // HUD player count {SETTING - NUMBER}
-gameinstructor_enable "0"                    // disable beginner hints {SETTING - OFF}
-safezonex "1.0"                              // HUD X positioning {SETTING - 1.0}
-safezoney "1.0"                              // HUD Y positioning {SETTING - 1.0}
-ui_steam_overlay_notification_position "topright" // Steam overlay position {SETTING - TOPRIGHT}
-ui_steam_overlay_notification_position_horz "0"    // horizontal offset {SETTING - 0}
-ui_steam_overlay_notification_position_vert "0"    // vertical offset {SETTING - 0}
+cl_allow_animated_avatars "0"               // Disable animated avatars
+cl_autohelp "1"                             // Enable auto help
+cl_hide_avatar_images "0"                   // Show avatar images
+cl_hud_color "4"                            // HUD color
+cl_sanitize_muted_players "0"               // Sanitize muted players' names
+cl_sanitize_player_names "0"                // Sanitize all player names
+cl_scoreboard_mouse_enable_binding "+attack2" // Enable scoreboard mouse binding
+cl_show_clan_in_death_notice "0"           // Show clan tag in death notice
+cl_showfps "0"                              // Show FPS counter
+cl_showloadout "1"                           // Show player loadout
+cl_teamcounter_playercount_instead_of_avatars "1" // Display player count in team counter
+gameinstructor_enable "0"                   // Disable game instructor
+safezonex "1.0"                             // HUD safezone X
+safezoney "1.0"                             // HUD safezone Y
+ui_steam_overlay_notification_position "topright" // Overlay notification position
+ui_steam_overlay_notification_position_horz "0"  // Overlay X offset
+ui_steam_overlay_notification_position_vert "0"  // Overlay Y offset
 
-ECHO "HUD SETTINGS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
+ECHO "HUD SETTINGS LOADED SUCCESSFULLY!"
 ECHO
 
 // --------------------------
 // RADAR SETTINGS
 // --------------------------
-cl_hud_radar_scale "1.15"                    // radar magnification {SETTING - 1.15}
-cl_radar_icon_scale_min "0.9"                // player icon size {SETTING - 0.9}
-cl_radar_always_centered "0"                 // radar background {SETTING - OFF}
-cl_radar_rotate "1"                          // radar rotation {SETTING - ON}
-cl_radar_scale "0.4"                         // radar map scale {SETTING - 0.4}
-cl_radar_square_with_scoreboard "1"          // radar square on scoreboard {SETTING - ON}
+cl_hud_radar_scale "1.15"                   // Radar scale
+cl_radar_icon_scale_min "0.9"               // Min icon scale on radar
+cl_radar_always_centered "0"                // Keep radar centered
+cl_radar_rotate "1"                          // Rotate radar with player view
+cl_radar_scale "0.4"                         // Overall radar scale
+cl_radar_square_with_scoreboard "1"         // Square radar with scoreboard
 
-ECHO "RADAR SETTINGS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
+ECHO "RADAR SETTINGS LOADED SUCCESSFULLY!"
 ECHO
 
 // --------------------------
 // VIEWMODEL / WEAPON SETTINGS
 // --------------------------
-viewmodel_fov "68"                           // weapon FOV {SETTING - 68}
-viewmodel_offset_z "-2.0"                    // vertical weapon position {SETTING - -2.0}
-viewmodel_offset_x "2.5"                     // horizontal weapon position {SETTING - 2.5}
-viewmodel_offset_y "2.0"                     // depth weapon position {SETTING - 2.0}
+viewmodel_fov "68"                          // Field of view for viewmodel
+viewmodel_offset_z "-2.0"                   // Viewmodel vertical offset
+viewmodel_offset_x "2.5"                    // Viewmodel horizontal offset
+viewmodel_offset_y "2.0"                    // Viewmodel forward/back offset
 
-ECHO "VIEWMODEL SETTINGS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
+ECHO "VIEWMODEL SETTINGS LOADED SUCCESSFULLY!"
 ECHO
 
 // --------------------------
 // CROSSHAIR SETTINGS
 // --------------------------
-cl_crosshair_friendly_warning "2"            // friendly warning circle {SETTING - ON}
-cl_crosshair_recoil "0"                      // crosshair follows recoil {SETTING - OFF}
-cl_crosshair_sniper_width "2"                // sniper crosshair thickness {SETTING - 2}
-cl_show_observer_crosshair "2"               // show other players crosshair {SETTING - ALL}
-hud_showtargetid "1"                         // display enemy nickname when targeting {SETTING - ON}
+cl_crosshair_friendly_warning "2"           // Crosshair warning for friendly fire
+cl_crosshair_recoil "0"                     // Crosshair movement with recoil
+cl_crosshair_sniper_width "2"               // Sniper crosshair width
+cl_show_observer_crosshair "2"              // Observer crosshair visibility
+hud_showtargetid "1"                        // Show target ID
 
-ECHO "CROSSHAIR SETTINGS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
+ECHO "CROSSHAIR SETTINGS LOADED SUCCESSFULLY!"
 ECHO
 
 // --------------------------
 // SOUND SETTINGS
 // --------------------------
-volume "1"                                   // overall game volume {SETTING - 100%}
-voice_modenable "1"                          // enable voice chat {SETTING - ON}
-snd_voipvolume "0.7"                         // voice volume {SETTING - 70%}
-snd_mute_losefocus "0"                       // mute when not focused {SETTING - OFF}
-snd_headphone_eq "1"                         // EQ profile {SETTING - EXPRESSIVE}
-snd_spatialize_lerp "0.0"                    // channel separation {SETTING - OFF}
-snd_steamaudio_enable_perspective_correction "0" // audio perspective correction {SETTING - OFF}
-cl_player_ping_mute "0"                       // ping sound {SETTING - ON}
-snd_menumusic_volume "0.015"                 // menu music {SETTING - 1.5%}
-snd_roundstart_volume "0"                     // round start music {SETTING - OFF}
-snd_mapobjective_volume "0"                  // bomb plant music {SETTING - OFF}
-snd_deathcamera_volume "0"                    // death camera volume {SETTING - OFF}
-snd_roundend_volume "0"                       // round end volume {SETTING - OFF}
-snd_tensecondwarning_volume "0.015"          // 10 sec bomb warning volume {SETTING - 1.5%}
-snd_mvp_volume "0.07"                         // MVP volume {SETTING - 7%}
-snd_mute_mvp_music_live_players "0"          // disable MVP if opponent alive {SETTING - OFF}
-voice_threshold 120                           // mic activation threshold {SETTING - 120}
+volume "1"                                  // Master volume
+voice_modenable "1"                         // Enable voice mod
+snd_voipvolume "0.7"                         // Voice chat volume
+snd_mute_losefocus "0"                       // Mute sound when losing focus
+snd_headphone_eq "1"                         // Headphone EQ mode
+snd_spatialize_lerp "0.0"                    // Sound spatialization
+snd_steamaudio_enable_perspective_correction "0" // Perspective correction
+cl_player_ping_mute "0"                       // Mute player pings
+snd_menumusic_volume "0.015"                 // Menu music volume
+snd_roundstart_volume "0"                     // Round start volume
+snd_mapobjective_volume "0"                  // Map objective volume
+snd_deathcamera_volume "0"                   // Death camera volume
+snd_roundend_volume "0"                       // Round end volume
+snd_tensecondwarning_volume "0.015"          // 10-second warning volume
+snd_mvp_volume "0.07"                        // MVP announcement volume
+snd_mute_mvp_music_live_players "0"          // Mute MVP music for live players
+voice_threshold 120                           // Voice chat threshold
 
-ECHO "SOUND SETTINGS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
+ECHO "SOUND SETTINGS LOADED SUCCESSFULLY!"
 ECHO
 
 // --------------------------
 // MOUSE SETTINGS
 // --------------------------
-zoom_sensitivity_ratio "0.818933027098955175" // AWP / Scout zoom sensitivity {SETTING - 0.8189}
-sensitivity "1"                                // general sensitivity {SETTING - 1.8}
-sensitivity_y_scale  "1"                       // mouse Y 
-m_yaw "0.0145"                                 // mouse yaw {SETTING - 0.0145}
-m_pitch "0.015"                                // mouse pitch {SETTING - 0.015}
+zoom_sensitivity_ratio "0.818933027098955175" // Zoom sensitivity ratio
+sensitivity "1"                               // Mouse sensitivity
+sensitivity_y_scale "1"                        // Mouse Y scale
+m_yaw "0.0145"                                // Mouse yaw
+m_pitch "0.015"                                // Mouse pitch
 
+ECHO
 ECHO "MOUSE SETTINGS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
-ECHO
 
+// --------------------------
+// FINALIZATION
+// --------------------------
 ECHO
-ECHO
-ECHO "GAME SETTINGS ARE LOADED CORRECTLY, ENJOY MRWHITEE_R"
 ECHO "FILE gamesettings.vcfg HAS LOADED SUCCESSFULLY!"
 ECHO
-ECHO
-

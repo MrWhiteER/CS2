@@ -1,5 +1,5 @@
 // =============================================
-// BASIC BINDS - MRWHITEE_R
+// BASIC BINDS - key_binds.vcfg
 // MOVEMENT | WEAPON SELECTION | MOUSE | INTERACTION | CUSTOM | FUNCTION KEYS
 // =============================================
 
@@ -20,9 +20,8 @@ bind "scancode224" "+duck"      // CROUCH {BUTTON - LEFT CTRL}
 bind "scancode44" "+jump"       // JUMP {BUTTON - SPACE}
 bind "scancode225" "+sprint"    // WALK SILENTLY {BUTTON - LEFT SHIFT}
 
-ECHO "MOVEMENT BINDS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
+ECHO "MOVEMENT BINDS LOADED SUCCESSFULLY!"
 ECHO
 
 // --------------------------
@@ -39,9 +38,8 @@ bind "scancode37" "slot8"       // SMOKE GRENADE {BUTTON - 8}
 bind "scancode38" "slot9"       // DECOY {BUTTON - 9}
 bind "scancode39" "slot10"      // MOLOTOV / INCENDIARY {BUTTON - 0}
 
-ECHO "WEAPON SELECTION BINDS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
+ECHO "WEAPON SELECTION BINDS LOADED SUCCESSFULLY!"
 ECHO
 
 // --------------------------
@@ -49,7 +47,7 @@ ECHO
 // --------------------------
 bind "mouse1" "+attack"                 // SHOOT / PLACE PACK {BUTTON - MOUSE1}
 bind "mouse2" "+attack2"                // SCOPE {BUTTON - MOUSE2}
-bind "mouse3" "say ❤♡ #THE_BEST ♿"    // CUSTOM TEXT + NOCLIP {BUTTON - MOUSE3}
+bind "mouse3" "say ❤♡ #THE_BEST ♿"    // CUSTOM TEXT {BUTTON - MOUSE3}
 bind "mouse4" "player_ping"             // PING POSITION {BUTTON - MOUSE4}
 bind "mouse5" "+voicerecord"            // VOICE CHAT {BUTTON - MOUSE5}
 bind "mwheelup" "slot3; slot7"          // USE FLASHBANG {BUTTON - SCROLL WHEEL UP}
@@ -57,93 +55,81 @@ bind "mwheeldown" "+jump"               // MOUSE ROLLER JUMP {BUTTON - SCROLL WH
 bind "mouse_x" "yaw"                    // MOUSE X-AXIS {MOUSE MOVEMENT}
 bind "mouse_y" "pitch"                  // MOUSE Y-AXIS {MOUSE MOVEMENT}
 
-ECHO "MOUSE BINDS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
+ECHO "MOUSE BINDS LOADED SUCCESSFULLY!"
 ECHO
 
 // --------------------------
 // INTERACTION / UTILITY BINDS
 // --------------------------
-bind "scancode8" "+use"                  // INTERACT / DISARM / PRESS BUTTONS {BUTTON - E}
-bind "scancode21" "+reload"              // RELOAD WEAPON {BUTTON - R}
-bind "scancode23" "+spray_menu"          // GRAFFITI MENU {BUTTON - T}
-bind "scancode28" "messagemode"          // MESSAGE ALL {BUTTON - Y}
-bind "scancode24" "messagemode2"         // MESSAGE TEAM {BUTTON - U}
-bind "scancode10" "drop"                 // DROP WEAPON {BUTTON - G}
-bind "scancode29" "+radialradio"         // RADIO WHEEL MENU {BUTTON - Z}
-bind "scancode54" "radio2"               // BASIC RADIO {BUTTON - ,}
-bind "scancode6" "radio"                 // BASIC RADIO {BUTTON - C}
-bind "scancode5" "buymenu"               // BUY MENU {BUTTON - B}
-bind "scancode16" "teammenu"             // TEAM MENU {BUTTON - M}
-bind "scancode58" "autobuy"              // AUTOMATIC PURCHASE {BUTTON - F1}
-bind "scancode59" "rebuy"                // REBUY LAST PURCHASE {BUTTON - F2}
+bind "scancode8" "+use"                 				 							  // INTERACT / DISARM / PRESS BUTTONS {BUTTON - E}
+bind "scancode21" "+reload"             				 							  // RELOAD WEAPON {BUTTON - R}
+bind "scancode23" "+spray_menu"          											  // GRAFFITI MENU {BUTTON - T}
+bind "scancode28" "messagemode"         											  // MESSAGE ALL {BUTTON - Y}
+bind "scancode24" "messagemode2"      					  							  // MESSAGE TEAM {BUTTON - U}
+bind "scancode10" "drop"                				 							  // DROP WEAPON {BUTTON - G}
+bind "scancode29" "+radialradio"        			 								  // RADIO WHEEL MENU {BUTTON - Z}
+bind "scancode54" "radio2"               											  // BASIC RADIO {BUTTON - ,}
+bind "scancode6" "radio"              				   								  // BASIC RADIO {BUTTON - C}
+bind "scancode5" "buymenu"            				  								  // BUY MENU {BUTTON - B}
+bind "scancode16" "teammenu"             											  // TEAM MENU {BUTTON - M}
+bind "scancode58" "autobuy"           				  								  // AUTOMATIC PURCHASE {BUTTON - F1}
+bind "scancode59" "rebuy"               											  // REBUY LAST PURCHASE {BUTTON - F2}
 
-ECHO "INTERACTION / UTILITY BINDS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
+ECHO "INTERACTION / UTILITY BINDS LOADED SUCCESSFULLY!"
 ECHO
 
 // --------------------------
 // CUSTOM BINDS
 // --------------------------
-bind "scancode49" "wh"                              // START IN-GAME WALLHACK {BUTTON - \}
-bind "scancode56" "toggleconsole"                   // ENABLE CONSOLE {BUTTON - /}
-bind "scancode53" "buy vest; buy vesthelm; buy defuser" // BUY FIRST GEAR {BUTTON - `}
-bind "scancode82" "ngup"                            // MIC VOLUME UP {BUTTON - ARROW-UP}
-bind "scancode81" "ngdn"                            // MIC VOLUME DOWN {BUTTON - ARROW-DOWN}
-bind "scancode77" "+distroll"                       // DISCONNECT TROLL {BUTTON - END}
-bind "scancode40" "mslam"                           // SLAM MUSIC {BUTTON - ENTER}
-bind "scancode73" "showt"                           // SHOW TEAMMATE NAMES / LOADOUT {BUTTON - INS}
-bind "scancode99" "say Nice One Mate | 𝔾𝕆𝕆𝔻 𝔹𝕆𝕐"  // CUSTOM TEXT {BUTTON - NUM-DEL}
-bind "scancode88" "say ☼ GG Everyone! Thanks for the Game, GL Gamers! ღ" // CUSTOM TEXT  {BUTTON - NUM-ENTER}
-bind "scancode98" "say ⎛⎝ ≽ > ⩊ < ≼ ⎠⎞ Wishing best luck to all! ☺"   // CUSTOM TEXT {BUTTON - NUM-INS}
-bind "scancode86" "allgrenades"                      // BUY / GIVE GRENADES {BUTTON - NUM-}
-bind "scancode87" "allguns"                          // BUY / GIVE ALL WEAPONS {BUTTON - NUM+}
-bind "scancode78" "collorchange"                     // CROSSHAIR COLOR {BUTTON - PGDN}
-bind "scancode75" "addlin"                           // CROSSHAIR BOLD LINE {BUTTON - PGUP}
-bind "scancode20" "+qsw"                             // QUICK WEAPON SWITCH {BUTTON - Q}
-bind "scancode230" "toggle_voice"                    // MUTE / UNMUTE PLAYERS {BUTTON - RIGHT-ALT}
-bind "scancode43" "+scorenet"                        // SHOW SCORE + FPS + PING {BUTTON - TAB}
-bind "scancode42" "sellbackall"                      // SELL ITEMS {BUTTON - BACKSPACE}
-bind "scancode40" "miceopen"                         // PUSH-TO-TALK TOGGLE {BUTTON - ENTER}
-bind "scancode12" "slot12"                           // X-RAY FOR OVERWATCH {BUTTON - I}
-bind "scancode9" "+lookatweapon"                     // INSPECT ITEM {BUTTON - F}
-bind "scancode25" "switchhands"                      // WEAPON PREVIEW {BUTTON - V}
-bind "scancode46" "!help"                            // SHOWS ALL CUSTOM COMMANDS
+bind "scancode49" "!wallhack"                       										  // START IN-GAME WALLHACK {BUTTON - \}
+bind "scancode56" "toggleconsole"                   										  // ENABLE CONSOLE {BUTTON - /}
+bind "scancode53" "!kev; !hk; !kit" 		    										  // BUY FIRST GEAR {BUTTON - `}
+bind "scancode82" "ngup"                           										  // MIC VOLUME UP {BUTTON - ARROW-UP}
+bind "scancode81" "ngdn"                            										  // MIC VOLUME DOWN {BUTTON - ARROW-DOWN}
+bind "scancode77" "+distroll"                       										  // DISCONNECT TROLL {BUTTON - END}
+bind "scancode40" "!miceopen"                      										  // SLAM MUSIC {BUTTON - ENTER}
+bind "scancode73" "showt"                         										  // SHOW TEAMMATE NAMES / LOADOUT {BUTTON - INS}
+bind "scancode99" "say Nice One Mate | 𝔾𝕆𝕆𝔻 𝔹𝕆𝕐"  																											 // CUSTOM TEXT {BUTTON - NUM-DEL}
+bind "scancode88" "say ☼ GG Everyone! Thanks for the Game, GL Gamers! ღ"								  // CUSTOM TEXT  {BUTTON - NUM-ENTER}
+bind "scancode98" "say ⎛⎝ ≽ > ⩊ < ≼ ⎠⎞ I Wish you Best of Luck and Please try to Have Some Fun! ☺      P.S DONT BE TOXIC ☺"     // CUSTOM TEXT {BUTTON - NUM-INS}
+bind "scancode86" "!giveallutillity"                    										  // BUY / GIVE GRENADES {BUTTON - NUM-}
+bind "scancode87" "!giveallguns"                        										  // BUY / GIVE ALL WEAPONS {BUTTON - NUM+}
+bind "scancode20" "+qsw"                            										  // QUICK WEAPON SWITCH {BUTTON - Q}
+bind "scancode230" "!voicechat"                     									          // MUTE / UNMUTE PLAYERS {BUTTON - RIGHT-ALT}
+bind "scancode43" "+scorenet"                      										  // SHOW SCORE + FPS + PING {BUTTON - TAB}
+bind "scancode42" "sellbackall"                     										  // SELL ITEMS {BUTTON - BACKSPACE}
+bind "scancode40" "!miceopen"                        										  // PUSH-TO-TALK TOGGLE {BUTTON - ENTER}
+bind "scancode12" "slot12"                           										  // X-RAY FOR OVERWATCH {BUTTON - I}
+bind "scancode9" "+lookatweapon"                    										  // INSPECT ITEM {BUTTON - F}
+bind "scancode25" "switchhands"                      										  // WEAPON PREVIEW {BUTTON - V}
+bind "scancode46" "!help"                          										  // SHOWS ALL CUSTOM COMMANDS
 
-ECHO "CUSTOM BINDS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
+ECHO "CUSTOM BINDS LOADED SUCCESSFULLY!"
 ECHO
 
 // --------------------------
 // FUNCTION KEYS
 // --------------------------
-bind "scancode61" "rnd"                              // RANDOM TEXT {BUTTON - F4}
-bind "scancode66" "vl"                               // TOGGLE GAME VOLUME {BUTTON - F9}
-bind "scancode64" "toggle voice_loopback"            // MIC TEST {BUTTON - F7}
-bind "scancode67" "gm"                               // GAME MODE LAN {BUTTON - F10}
-bind "scancode68" "mod"                              // PERSONAL GAME MODE {BUTTON - F11}
-bind "scancode69" "ex88"                             // PERSONAL CONFIG LOADER {BUTTON - F12}
-bind "scancode41" "cancelselect"                     // ESCAPE BUTTON {BUTTON - ESCAPE}
-bind "scancode58" "autobuy"                          // AUTOMATIC PURCHASE {BUTTON - F1}
-bind "scancode59" "rebuy"                            // REBUY {BUTTON - F2}
+bind "scancode58" "autobuy"                    											  // AUTOMATIC PURCHASE {BUTTON - F1}
+bind "scancode59" "rebuy"                      											  // REBUY {BUTTON - F2}
+bind "scancode61" "rnd"                       											  // RANDOM TEXT {BUTTON - F4}
+bind "scancode64" "!micloopback"      											 	  // MIC TEST {BUTTON - F7}
+bind "scancode66" "!gamevoulume"                         									  // TOGGLE GAME VOLUME {BUTTON - F9}
+bind "scancode67" "gm"                         											  // GAME MODE LAN/WARMUP {BUTTON - F10}
+bind "scancode68" "mod"                         										  // PERSONAL GAME MODE {BUTTON - F11}
+bind "scancode69" "!autoexec"                  											  // PERSONAL CONFIG LOADER {BUTTON - F12}
+bind "scancode41" "cancelselect"               											  // ESCAPE BUTTON {BUTTON - ESCAPE}
 
+ECHO
 ECHO "FUNCTION KEYS LOADED SUCCESSFULLY!"
 ECHO
-ECHO ---------------------------------------------
-ECHO
 
+// --------------------------
+// FINALIZATION
+// --------------------------
 ECHO
-ECHO
-ECHO "BASIC BINDS SETTINGS ARE LOADED CORRECTLY, ENJOY MRWHITEE_R"
 ECHO "FILE key_binds.vcfg HAS LOADED SUCCESSFULLY!"
 ECHO
-ECHO
-
-
-
-
-
-

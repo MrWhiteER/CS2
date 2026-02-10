@@ -1,0 +1,175 @@
+// =============================================
+// COMMANDS SHORTCUTS - MRWHITEE_R
+// ALIASES | GIVE / BUY WEAPONS | MAP SHORTCUTS | UTILITIES
+// =============================================
+
+ECHO
+ECHO
+ECHO "LOADING MASTER WEAPON TEMPLATE..."
+ECHO
+ECHO
+
+// ------------------------------------------------------
+// GENERAL COMMAND ALIASES
+// ------------------------------------------------------
+alias "!dc"     "disconnect"                                // Exit server
+alias "s"      "status"                                    // Show server status
+alias "c"      "clear"                                     // Clear console
+alias "mute"   "toggle cl_mute_enemy_team 1 0"            // Mute/unmute enemy team chat
+alias "!help"  "exec mrwhiteer/tools/help.vcfg"           // Show all custom commands
+alias "!autoexec" "exec mrwhiteer/autoexec.vcfg"          // MrWhiteE_R Config Loader
+alias "!5v5" "exec mrwhiteer/lan/lan.vcfg"		  // 5v5 Server Config Loader
+alias "!warmup" "exec mrwhiteer/lan/warmup.vcfg"	  // Warmup/Trainer Config Loader
+
+
+
+	
+ECHO "GENERAL COMMAND ALIASES LOADED SUCCESSFULLY!"
+ECHO "---------------------------------------------"
+ECHO
+
+// ------------------------------------------------------
+// RIFLES
+// ------------------------------------------------------
+alias "!ak"     "buy ak47; give weapon_ak47"                     // AK-47 (T-side rifle)
+alias "!m4"     "buy m4a1; give weapon_m4a1"                     // M4A4 (CT-side rifle)
+alias "!m4s"    "buy m4a1_silencer; give weapon_m4a1_silencer"   // M4A1-S (CT-side silenced)
+alias "!aug"    "buy aug; give weapon_aug"                       // AUG
+alias "!sg"     "buy sg556; give weapon_sg556"                   // SG553
+alias "!galil"  "buy galilar; give weapon_galilar"               // Galil AR
+alias "!famas"  "buy famas; give weapon_famas"                   // FAMAS
+
+ECHO "RIFLE ALIASES LOADED SUCCESSFULLY!"
+ECHO "---------------------------------------------"
+ECHO
+
+// ------------------------------------------------------
+// SNIPERS
+// ------------------------------------------------------
+alias "!awp"    "buy awp; give weapon_awp"                       // AWP sniper rifle
+alias "!scout"  "buy ssg08; give weapon_ssg08"                   // SSG08 scout rifle
+alias "!scar"   "buy scar20; give weapon_scar20"                 // SCAR-20
+alias "!g3"     "buy g3sg1; give weapon_g3sg1"                   // G3SG1
+
+ECHO "SNIPER ALIASES LOADED SUCCESSFULLY!"
+ECHO "---------------------------------------------"
+ECHO
+
+// ------------------------------------------------------
+// SMGs
+// ------------------------------------------------------
+alias "!mp9"    "buy mp9; give weapon_mp9"                       // MP9
+alias "!mp7"    "buy mp7; give weapon_mp7"                       // MP7
+alias "!mp5"    "buy mp5sd; give weapon_mp5sd"                   // MP5-SD
+alias "!mac10"  "buy mac10; give weapon_mac10"                   // MAC-10
+alias "!ump"    "buy ump45; give weapon_ump45"                   // UMP-45
+alias "!bizon"  "buy bizon; give weapon_bizon"                   // Bizon
+alias "!p90"    "buy p90; give weapon_p90"                       // P90
+
+ECHO "SMG ALIASES LOADED SUCCESSFULLY!"
+ECHO "---------------------------------------------"
+ECHO
+
+// ------------------------------------------------------
+// HEAVY
+// ------------------------------------------------------
+alias "!nova"   "buy nova; give weapon_nova"                     // Nova shotgun
+alias "!xm"     "buy xm1014; give weapon_xm1014"                 // XM1014 shotgun
+alias "!mag7"   "buy mag7; give weapon_mag7"                     // MAG-7 shotgun
+alias "!sawed"  "buy sawedoff; give weapon_sawedoff"             // Sawed-Off shotgun
+alias "!m249"   "buy m249; give weapon_m249"                     // M249 machine gun
+alias "!negev"  "buy negev; give weapon_negev"                   // Negev machine gun
+
+ECHO "HEAVY ALIASES LOADED SUCCESSFULLY!"
+ECHO "---------------------------------------------"
+ECHO
+
+// ------------------------------------------------------
+// PISTOLS
+// ------------------------------------------------------
+alias "!glock"  "buy glock; give weapon_glock"                   // Glock-18
+alias "!usp"    "buy usp_silencer; give weapon_usp_silencer"     // USP-S
+alias "!p2000"  "buy hkp2000; give weapon_hkp2000"               // P2000
+alias "!p250"   "buy p250; give weapon_p250"                     // P250
+alias "!deagle" "buy deagle; give weapon_deagle"                 // Desert Eagle
+alias "!revo"   "buy revolver; give weapon_revolver"             // R8 Revolver
+alias "!cz"     "buy cz75a; give weapon_cz75a"                   // CZ-75
+alias "!five7"  "buy fiveseven; give weapon_fiveseven"           // Five-SeveN
+alias "!tec9"   "buy tec9; give weapon_tec9"                     // TEC-9
+alias "!dual"   "buy elite; give weapon_elite"                    // Dual Berettas
+
+ECHO "PISTOL ALIASES LOADED SUCCESSFULLY!"
+ECHO "---------------------------------------------"
+ECHO
+
+// ------------------------------------------------------
+// GRENADES
+// ------------------------------------------------------
+alias "!flash"  "buy flashbang; give weapon_flashbang"           // Flashbang
+alias "!smoke"  "buy smokegrenade; give weapon_smokegrenade"     // Smoke grenade
+alias "!he"     "buy hegrenade; give weapon_hegrenade"           // HE grenade
+alias "!decoy"  "buy decoy; give weapon_decoy"                   // Decoy grenade
+alias "!mol"    "buy molotov; buy incgrenade; give weapon_molotov; give weapon_incgrenade" // Molotov + incendiary
+
+ECHO "GRENADE ALIASES LOADED SUCCESSFULLY!"
+ECHO "---------------------------------------------"
+ECHO
+
+// ------------------------------------------------------
+// GEAR
+// ------------------------------------------------------
+alias "!kev"    "buy vest; give item_kevlar"                     // Kevlar vest
+alias "!hk"     "buy vesthelm; give item_assaultsuit"           // Kevlar + Helmet
+alias "!kit"    "buy defuser; give item_defuser"                 // Defuse kit
+alias "!zeus"   "buy taser; give weapon_taser"                  // Zeus x27
+
+ECHO "GEAR ALIASES LOADED SUCCESSFULLY!"
+ECHO "---------------------------------------------"
+ECHO
+
+// ------------------------------------------------------
+// PRACTICE / FUN
+// ------------------------------------------------------
+alias "!c4"       "give weapon_c4"                               // C4 bomb
+alias "!ammo"     "givecurrentammo"                              // Full ammo (practice only)
+alias "!knife"    "give weapon_knife"                            // Knife
+alias "!snow"     "give weapon_snowball"                         // Snowball fun
+alias "shield" "ui_vanitysetting_loadoutslot_t heavy5"    	// Equip shield in menu
+
+ECHO "PRACTICE / FUN ALIASES LOADED SUCCESSFULLY!"
+ECHO "---------------------------------------------"
+ECHO
+
+// ------------------------------------------------------
+// MAP SHORTCUTS — COMPLETE (COMPETITIVE + LEGEND)
+// ------------------------------------------------------
+alias "anubis"      "map de_anubis"         // Load map: Anubis
+alias "ancient"     "map de_ancient"       // Load map: Ancient
+alias "aztec"       "map de_aztec"         // Load map: Aztec
+alias "assault"     "map cs_assault"       // Load map: Assault (classic hostage)
+alias "italy"       "map cs_italy"         // Load map: Italy (classic hostage)
+alias "cache"       "map de_cache"         // Load map: Cache
+alias "cobble"      "map de_cbble"         // Load map: Cobble
+alias "dust"        "map de_dust"          // Load map: Dust
+alias "dust2"       "map de_dust2"         // Load map: Dust2
+alias "inferno"     "map de_inferno"       // Load map: Inferno
+alias "lake"        "map de_lake"          // Load map: Lake
+alias "mirage"      "map de_mirage"        // Load map: Mirage
+alias "militia"     "map de_militia"       // Load map: Militia (classic hostage)
+alias "nuke"        "map de_nuke"          // Load map: Nuke
+alias "office"      "map de_office"        // Load map: Office (classic hostage)
+alias "overpass"    "map de_overpass"      // Load map: Overpass
+alias "resort"      "map de_resort"        // Load map: Resort
+alias "safehouse"   "map de_safehouse"     // Load map: Safehouse
+alias "season"      "map de_season"        // Load map: Season
+alias "train"       "map de_train"         // Load map: Train
+alias "vertigo"     "map de_vertigo"       // Load map: Vertigo
+alias "canals"      "map de_canals"        // Load map: Canals
+
+ECHO "MAP SHORTCUTS (COMPETITIVE + LEGEND) LOADED SUCCESSFULLY!"
+ECHO "---------------------------------------------"
+ECHO
+
+ECHO
+ECHO "FILE alias.vcfg LOADED SUCCESSFULLY!"
+ECHO
