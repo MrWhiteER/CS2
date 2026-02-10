@@ -1,0 +1,68 @@
+clear                             // CLEAR ALL CONSOLE
+// =============================================
+// GAME SETTINGS - MRWHITEE_R
+// SETTINGS INFO | SCRIPT BUTTONS
+// =============================================
+
+echo
+echo
+echo "LOADING GAME SETTINGS INFO"
+echo
+echo
+
+// ------------------------------------------------
+// MOUSE EXTRA BINDS
+// ------------------------------------------------
+echo "========== EXTRA MOUSE =========="
+echo "MOUSE3         → Custom Chat Message"
+echo "MOUSE4         → Player Ping"
+echo "MWHEEL UP      → Instant Flashbang"
+echo "MWHEEL DOWN    → Jump Bind"
+echo
+
+// ------------------------------------------------
+// UTILITY / INTERACTION
+// ------------------------------------------------
+echo "========== UTILITY =========="
+echo "TAB            → Scoreboard + Netgraph"
+echo
+
+// ------------------------------------------------
+// CUSTOM SCRIPT BINDS
+// ------------------------------------------------
+echo "========== CUSTOM SCRIPTS =========="
+echo "PGUP           → Crosshair Bold Line"
+echo "PGDN           → Crosshair Color Change"
+echo "Q              → Quick Weapon Switch"
+echo "RIGHT ALT      → Mute / Unmute Players"
+echo "ENTER          → Music / Voice Toggle"
+echo "INS            → Show Teammate Info"
+echo "DEL (NUM)      → Chat Message"
+echo "NUM +          → All Guns"
+echo "NUM -          → All Grenades"
+echo "BACKSPACE      → Sell Items"
+echo
+
+// ------------------------------------------------
+// FUNCTION KEYS
+// ------------------------------------------------
+echo "========== FUNCTION KEYS =========="
+echo "F1             → Autobuy"
+echo "F2             → Rebuy"
+echo "F4             → Random Chat"
+echo "F7             → Mic Test"
+echo "F9             → Toggle Game Volume"
+echo "F10            → LAN Mode"
+echo "F11            → Personal Mode"
+echo "F12            → Config Loader"
+echo
+
+// ------------------------------------------------
+// FINALIZATION
+// ------------------------------------------------
+echo
+echo
+echo "GAME SETTINGS BINDS ARE LOADED CORRECTLY, ENJOY MRWHITEE_R"
+echo "FILE help.vcfg HAS LOADED SUCCESSFULLY!"
+echo
+echo

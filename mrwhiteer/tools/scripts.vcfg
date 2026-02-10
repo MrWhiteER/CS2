@@ -1,0 +1,207 @@
+// =============================================
+// JUNK ALIASES - MRWHITEE_R
+// SCRIPTS | ANTI-AFK | JUMP | GAMEMODE | VOLUME | WEAPONS | SHOOTING STYLES | VOICE
+// =============================================
+
+ECHO
+ECHO
+ECHO "LOADING SCRIPTS COLLECTION"
+ECHO
+ECHO
+
+// --------------------------
+// Anti-AFK Script
+// --------------------------
+alias "!afk_on" "+forward; +left; +stamina; alias !afk !afk_ff"
+alias "!afk_off" "-forward; -left; -stamina; alias !afk !afk_on"
+alias "!afk" "!afk_on"
+
+ECHO
+ECHO "---Script---Anti-AFK Script is Loaded Correctly and Ready to Use. Press (F5) to turn ON/OFF"
+ECHO
+
+// --------------------------
+// Better Jump
+// --------------------------
+alias "+jumpduck" "+jump; +duck"
+alias "-jumpduck" "-jump; -duck"
+
+ECHO
+ECHO "---Script---Better-Jump Script is Loaded Correctly and Ready to Use. Press (Space)"
+ECHO
+
+// --------------------------
+// GameMode Changer
+// --------------------------
+alias "1GM" "!5v5; alias GM 2GM"
+alias "2GM" "!warmup; alias GM 1GM"
+alias "GM" "1GM"
+
+ECHO
+ECHO "---Script---GameMode Changer Script is Loaded Correctly and Ready to Use. Press (F8)"
+ECHO
+
+// --------------------------
+// Guns and Grenades Drop/Buy
+// --------------------------
+alias "!giveallguns" "!ak; !m4; !m4s; !aug; !sg; !galil; !famas; !awp; !scout; !scar; !g3; !mp9; !mp7; !mp5; !mac10; !ump; !bizon; !p90; !nova; !xm; !mag7; !sawed; !m249; !negev; !glock; !usp; !p2000; !p250; !deagle; !revo; !cz; !five7; !tec9; !dual"
+
+alias "!giveallutillity" "!flash; !smoke; !he; !mol; !decoy"
+
+ECHO
+ECHO "---Script---Guns and Grenades Script is Loaded Correctly and Ready to Use. Press NumPad (+/-) / Command !giveallguns | !giveallutillity"
+ECHO
+
+// --------------------------
+// Wallhack
+// --------------------------
+alias "!wallhack_on" "r_drawothermodels 2; echo Wallhack Disabled; play buttons\\button11 0.2; alias !wallhack !wallhack_off"
+alias "!wallhack_off" "r_drawothermodels 1; echo Wallhack Enabled; play buttons\\button14 0.2; alias !wallhack !wallhack_on"
+alias "!wallhack" "!wallhack_on"
+
+ECHO
+ECHO "---Script---Wallhack Script is Loaded Correctly and Ready to Use. Press (\) / Command !wallhack"
+ECHO
+
+// --------------------------
+// Left/Right Hand Switch
+// --------------------------
+alias "!inspectswap_left" "+lookatweapon; switchhandsleft; alias !inspectswap !inspectswap_right"
+alias "!inspectswap_right" "switchhandsright; alias !inspectswap !inspectswap_left"
+alias "!inspectswap" "!inspectswap_left"
+
+ECHO
+ECHO "---Script---Left and Right Hand Switch Script is Loaded Correctly and Ready to Use. Press (F) / Command !inspectswap"
+ECHO
+
+// --------------------------
+// Team Mates Health Shower
+// --------------------------
+alias "showt1" "+cl_show_team_equipment; echo Health|GUI On; play buttons\\button14 0.2; alias showt showt2"
+alias "showt2" "-cl_show_team_equipment; echo Health|GUI Off; play buttons\\button11 0.2; alias showt showt1"
+alias "showt" "showt1"
+
+ECHO
+ECHO "---Script---Team Mates Health Shower Script is Loaded Correctly and Ready to Use. Press (INS)"
+ECHO
+
+// --------------------------
+// Quick Disconnect
+// --------------------------
+alias "+distroll" "say ﷽﷽ ﷽﷽﷽ ﷽﷽﷽ ﷽﷽﷽ ﷽﷽﷽ Bye"
+alias "-distroll" "!dc"
+
+ECHO
+ECHO "---Script---Quick Disconnect Script is Loaded Correctly and Ready to Use. Press (END)"
+ECHO
+
+// --------------------------
+// Quick Switch
+// --------------------------
+alias "+qsw" "slot3"
+alias "-qsw" "lastinv"
+
+ECHO
+ECHO "---Script---Quick Switch Script is Loaded Correctly and Ready to Use. Press (Q)"
+ECHO
+
+// --------------------------
+// ScoreBoard shows Netgraph
+// --------------------------
+alias "+scorenet" "+showscores; cl_showfps 1"
+alias "-scorenet" "-showscores; cl_showfps 0"
+developer "1"
+
+ECHO
+ECHO "---Script---ScoreBoard with Netgraph Script is Loaded Correctly and Ready to Use. Press (TAB)"
+ECHO
+
+// --------------------------
+// Shooting Styles (Duck/Walk/Reload/Inspect)
+// --------------------------
+alias "Style_1" "dfire; alias Style Style_2"
+alias "Style_2" "cfire; alias Style Style_3"
+alias "Style_3" "vfire; alias Style Style_4"
+alias "Style_4" "rfire; alias Style Style_1"
+alias "Style" "Style_1"
+
+ECHO
+ECHO "---Script---Shooting Style Button Configuration Script is Loaded Correctly and Ready to Use. Press (F10)"
+ECHO
+
+// --------------------------
+// Player Microphone Toggle/Hold Mode
+// --------------------------
+alias "!miceopen_on" "+voicerecord; echo Open Microphone Activated!; say_team Open Microphone Activated!; alias !miceopen !miceopen_off"
+alias "!miceopen_off" "-voicerecord; echo Microphone Back to Normal!; say_team Microphone Back to Normal!; alias !miceopen !miceopen_on"
+alias "!miceopen" "!miceopen_on"
+
+ECHO
+ECHO "---Script---Player Microphone Toggle/Hold Mode Script is Loaded Correctly and Ready to Use. Press (Enter) / Command !miceopen"
+ECHO
+
+// --------------------------
+// Game Volume
+// --------------------------
+alias "!gamevolume_off" "volume 0; echo ; echo Game Volume is Off; say_team Game Volume is Off; play buttons\\button14 0.2; alias !gamevoulume !gamevolume_on"
+alias "!gamevolume_on" "volume 1; echo ; echo Game Volume is On; say_team Game Volume is On; play buttons\\button14 0.2; alias !gamevoulume !gamevolume_off"
+alias "!gamevoulume" "!gamevolume_off"
+
+ECHO
+ECHO "---Script---Game Volume Script is Loaded Correctly and Ready to Use. Press (F9)"
+ECHO
+
+// --------------------------
+// Clutch Mode / Toxic Teamates Voice_Chat Controll
+// --------------------------
+alias "!voicechat_off" "toggle_voice; echo; echo 🎙 Voice Chat MUTED! | Reason: In Clutch or Toxic Team; say_team 🎙 Voice muted | Reason: In Clutch or Toxic Team; play buttons\\button14 0.2; alias !voicechat !voicechat_on" 
+alias "!voicechat_on" "toggle_voice; echo; echo 🎙 Voice Chat UNMUTED! | Back in action; say_team 🎙 Voice Chat UNMUTED! | Back in action; play buttons\\button14 0.2; alias !voicechat !voicechat_off"
+alias "!voicechat" "!voicechat_off"
+
+ECHO
+ECHO "---Script---Voice_Chat Controll Script is Loaded Correctly and Ready to Use. Press (RALT)"
+ECHO
+
+// --------------------------
+// Microphone Check Up - In-Game
+// --------------------------
+alias "!micloopback_on" "toggle voice_loopback; echo; echo MIC-LOOP_BACK On; play buttons\\button14 0.2; alias !voicechat !voicechat_on" 
+alias "!micloopback_off" "toggle voice_loopback; echo; echo MIC-LOOP_BACK Off; play buttons\\button14 0.2; alias !voicechat !voicechat_off"
+alias "!micloopback" "!micloopback_on"
+  
+ECHO
+ECHO "---Script---MicLoopBack Controll Script is Loaded Correctly and Ready to Use. Press (F7) Command !micloopback"
+ECHO
+
+// --------------------------
+// Voice Chat Volume Controller
+// --------------------------
+alias "ngmin" "voice_scale 0; echo VOICE 0%; alias ngup ng1; alias ngdn ngmin"
+alias "ng1" "voice_scale 0.1; echo VOICE 10%; alias ngup ng2; alias ngdn ngmin"
+alias "ng2" "voice_scale 0.2; echo VOICE 20%; alias ngup ng3; alias ngdn ng1"
+alias "ng3" "voice_scale 0.3; echo VOICE 30%; alias ngup ng4; alias ngdn ng2"
+alias "ng4" "voice_scale 0.4; echo VOICE 40%; alias ngup ng5; alias ngdn ng3"
+alias "ng5" "voice_scale 0.5; echo VOICE 50%; alias ngup ng6; alias ngdn ng4"
+alias "ng6" "voice_scale 0.6; echo VOICE 60%; alias ngup ng7; alias ngdn ng5"
+alias "ng7" "voice_scale 0.7; echo VOICE 70%; alias ngup ng8; alias ngdn ng6"
+alias "ng8" "voice_scale 0.8; echo VOICE 80%; alias ngup ng9; alias ngdn ng7"
+alias "ng9" "voice_scale 0.9; echo VOICE 90%; alias ngup ng10; alias ngdn ng8"
+alias "ng10" "voice_scale 1; echo VOICE 100%; alias ngdn ng9"
+alias "ngup" "ng1"
+alias "ngdn" "ng1"
+
+ECHO
+ECHO "---Script---Voice Chat Volume Controller Script is Loaded Correctly and Ready to Use. Press (UP/DOWN Arrows)"
+ECHO
+
+// --------------------------
+// Shooting Type Modifier
+// --------------------------
+
+
+ECHO
+ECHO
+ECHO "SCRIPTS ARE LOADED CORRECTLY, ENJOY MRWHITEE_R"
+ECHO "FILE scripts.vcfg HAS LOADED SUCCESSFULLY!"
+ECHO
+ECHO
