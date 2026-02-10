@@ -1,0 +1,69 @@
+// ---------------------------------------------
+// Exec Settings and VCFG
+// ---------------------------------------------
+
+unbindall
+
+// ---------------------------------------------
+// Tools Settings
+echo
+echo
+echo "Loading Tools Settings"
+echo "Loading ALIAS Settings"
+exec "mrwhiteer/tools/alias.vcfg"
+echo "ALIAS Settings Loaded Successfully"
+echo
+echo
+echo "---------------------------------------------"
+
+echo
+echo
+echo "Loading Tools Settings"
+echo "Loading SCRIPTS Settings"
+exec "mrwhiteer/tools/scripts.vcfg"
+echo "SCRIPTS Settings Loaded Successfully"
+echo
+echo
+echo "---------------------------------------------"
+
+echo
+echo
+echo "Loading Tools Settings"
+echo "Loading RANDOM_TEXT Settings"
+exec "mrwhiteer/tools/rnd_txt.vcfg"
+echo "RANDOM_TEXT Settings Loaded Successfully"
+echo
+echo
+echo "---------------------------------------------"
+
+// ---------------------------------------------
+// Main Settings
+echo
+echo
+echo "Loading Main Settings"
+echo "Loading GAMESETTINGS"
+exec "mrwhiteer/mainsettings/gamesettings.vcfg"
+echo "GAMESETTINGS Loaded Successfully"
+echo
+echo
+echo "---------------------------------------------"
+
+echo
+echo
+echo "Loading Main Settings"
+echo "Loading KEY_BINDS"
+exec "mrwhiteer/mainsettings/key_binds.vcfg"
+echo "KEY_BINDS Loaded Successfully"
+echo
+echo
+echo "---------------------------------------------"
+
+// ---------------------------------------------
+// Final Messages
+echo
+echo
+echo "All Configs Loaded Successfully, Enjoy MrWhiteE_R!"
+echo
+say_team "Config Loaded | By MrWhiteE_R"
+echo
+echo "Check the console for any errors that appeared during loading."
