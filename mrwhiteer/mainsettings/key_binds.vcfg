@@ -92,7 +92,7 @@ bind "scancode77" "+distroll"                       										      // DISCONNEC
 bind "scancode40" "!miceopen"                      										        // SLAM MUSIC {BUTTON - ENTER}
 bind "scancode73" "showt"                         										        // SHOW TEAMMATE NAMES / LOADOUT {BUTTON - INS}
 bind "scancode99" "!no"  																							   			// CUSTOM TEXT {BUTTON - NUM-DEL}
-bind "scancode88" "!gl"														                            // CUSTOM TEXT  {BUTTON - NUM-ENTER}
+bind "scancode88" "!gg"														                            // CUSTOM TEXT  {BUTTON - NUM-ENTER}
 bind "scancode98" "!gl"     													                        // CUSTOM TEXT {BUTTON - NUM-INS}
 bind "scancode86" "!giveallutillity"                    										  // BUY / GIVE GRENADES {BUTTON - NUM-}
 bind "scancode87" "!giveallguns"                        										  // BUY / GIVE ALL WEAPONS {BUTTON - NUM+}
@@ -133,4 +133,5 @@ ECHO
 ECHO
 ECHO "FILE key_binds.vcfg HAS LOADED SUCCESSFULLY!"
 ECHO
+
 
